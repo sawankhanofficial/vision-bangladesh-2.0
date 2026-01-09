@@ -5,6 +5,61 @@
 }
 body{
     font-family: "Fira Sans", sans-serif;
+    width:85vw;
+    margin: 0px auto;
 }
 
 /* Shared Style */
+.btn{
+    padding: 12px 20px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    background: transparent;
+    border-radius: 5px;
+    color: rgba(0, 106, 80, 1);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color:rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: #ffffff;
+
+}
+
+
+header{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+nav .logo a{
+    color: rgba(14, 14, 14, 1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links li a{
+    color: rgba(0, 106, 80, 1);
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color: rgb(4, 63, 48);
+    border-bottom: 2px solid rgb(4, 63, 48);
+}
