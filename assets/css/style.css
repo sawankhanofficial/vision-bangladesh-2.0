@@ -103,3 +103,44 @@ nav .logo a{
     background: transparent;
     color: rgba(0, 106, 80, 1);
 }
+
+
+
+/* Pillar Section Design */
+#pillar{
+    margin: 80px 0px;
+}
+.pillar-content h2{
+    color: rgba(14, 14, 14, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+.pillar-content .pillar-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.pillar-content .pillar-item .pillar-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+.pillar-content .pillar-item .pillar-box h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 12px 0px;
+}
+.pillar-content .pillar-item .pillar-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
