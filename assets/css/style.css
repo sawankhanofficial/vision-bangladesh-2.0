@@ -144,3 +144,89 @@ nav .logo a{
     font-weight: 400;
     line-height: 18px;
 }
+
+
+
+/* Vision Section Design */
+#vision{
+    margin-bottom: 80px;
+}
+.vision-content h2{
+    color: rgba(14, 14, 14, 1);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+.vision-content p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+.vision-content .vision-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.vision-content .vision-item .vision-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(129, 180, 252, 1);
+    padding: 30px;
+}
+.vision-item .vision-box:nth-child(2){
+    background-color:rgba(198, 228, 214, 1);
+}
+.vision-item .vision-box:nth-child(3){
+    background-color:rgba(255, 247, 223, 1);
+}
+
+.vision-content .vision-item .vision-box h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 12px 0px;
+}
+.vision-content .vision-item .vision-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.vision-item .vision-box:nth-child(1) button{
+    background-color: rgba(84, 144, 245, 1);
+    border: 2px solid rgba(84, 144, 245, 1);
+    color: #ffffff;
+}
+.vision-item .vision-box:nth-child(1) button:hover{
+    border: 2px solid rgba(84, 144, 245, 1);
+    background: transparent;
+    color: rgba(84, 144, 245, 1);
+}
+.vision-item .vision-box:nth-child(2) button{
+    background-color: rgba(9, 161, 92, 1);
+    border: 2px solid rgba(9, 161, 92, 1);
+    color: #ffffff;
+}
+.vision-item .vision-box:nth-child(2) button:hover{
+    border: 2px solid rgba(9, 161, 92, 1);
+    background: transparent;
+    color: rgba(9, 161, 92, 1);
+}
+.vision-item .vision-box:nth-child(3) button{
+    background-color: rgba(255, 194, 57, 1);
+    border: 2px solid rgba(255, 194, 57, 1);
+    color: #ffffff;
+}
+.vision-item .vision-box:nth-child(3) button:hover{
+    border: 2px solid rgba(255, 194, 57, 1);
+    background: transparent;
+    color: rgba(255, 194, 57, 1);
+}
